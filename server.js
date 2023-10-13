@@ -29,7 +29,7 @@ app.post('/technical-skills',async (req,res)=>{
     }
 })
 
-console.log("hello");
+
 mongoose.connect('mongodb+srv://vaishnavir:vaishnavi95@clustertask.hhfiltv.mongodb.net/technicalskills?retryWrites=true&w=majority')
 .then(()=>{
     console.log('connected to mongodb')
