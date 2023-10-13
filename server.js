@@ -4,7 +4,7 @@ const Skills=require('./models/productModel')
 const app = express();
 
 app.use(express.json())
-app.get('/',(req,res)=>{res.send("Hello Vaishoooo")})
+
 
 app.get('/technical-skills',async(req,res)=>{
     try{
